@@ -363,7 +363,7 @@ body{
 
 /* book now section */
 
-.book-section{
+.book-section , .aboutus-section{
     position: relative;
     display: flex;
     padding: 0 10vw;
@@ -379,18 +379,18 @@ body{
     right: 0;
 }
 
-.book-content{
+.book-content, .aboutus-content{
     width: 50%;
     color: #fff;
 }
 
-.book-now-title{
+.book-now-title, .about-us-title{
     font-size: 50px;
     font-weight: 300;
     width: 300px;
 }
 
-.book-now-text{
+.book-now-text, .team-member{
     width: 300px;
     opacity: 0.5;
     line-height: 25px;
